@@ -124,24 +124,4 @@ def main(POP_SIZE, MUT_RATE, TARGET, GENES):
       print('String: ' + str(population[0][0]) + ' Generation: ' + str(generation) + ' Fitness: ' + str(population[0][1]))
       generation+=1
 
-result = main(POP_SIZE, MUT_RATE, TARGET, GENES)
 
-String: ['f', 't', 'f', 'h', 'o', 'd', 'a', 'c'] Generation: 1 Fitness: 5
-String: ['f', 't', 'f', 'h', 'o', 'd', 'a', 'c'] Generation: 2 Fitness: 5
-String: ['f', 'k', 'm', 'b', 'i', 't', 'z', 'h'] Generation: 3 Fitness: 4
-String: ['f', 'k', 'm', 'b', 'i', 't', 'z', 'h'] Generation: 4 Fitness: 4
-String: ['f', 'k', 'm', 'b', 'i', 't', 'z', 'h'] Generation: 5 Fitness: 4
-String: ['f', 'k', 'm', 'b', 'i', 't', 'z', 'h'] Generation: 6 Fitness: 4
-String: ['f', 'a', 'k', 'f', 'i', 'e', 'o', 'h'] Generation: 7 Fitness: 3
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'm'] Generation: 8 Fitness: 2
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'm'] Generation: 9 Fitness: 2
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'm'] Generation: 10 Fitness: 2
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 11 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 12 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 13 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 14 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 15 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 16 Fitness: 1
-String: ['f', 'a', 'k', 'f', 'i', 't', 'a', 'h'] Generation: 17 Fitness: 1
-Target found
-String: ['f', 'a', 'k', 'h', 'i', 't', 'a', 'h'] Generation: 18 Fitness: 0
